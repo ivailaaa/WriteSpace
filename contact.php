@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -59,6 +60,9 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as
                         soon as possible!</p>
+
+                        <div class="container px-4 px-lg-5 mt-4">
+
                     <div class="my-5">
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
@@ -66,8 +70,9 @@
                         <!-- This form is pre-integrated with SB Forms.-->
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
+
                         <!-- to get an API token!-->
-                        <form method="POST" action="php/contact.php">
+                        <form method="POST" action="process.php">
 
                             <!-- Name input -->
                             <div data-mdb-input-init class="form-outline mb-4">
